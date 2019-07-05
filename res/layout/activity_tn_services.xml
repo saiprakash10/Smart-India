@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:background="@drawable/backtn"
+    tools:context=".TN_services" >
+
+    <Button 
+        android:id="@+id/adharcard"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Aadhaar Card"
+        android:typeface="monospace"
+        android:textColor="#2E4053"
+        android:background="@drawable/shape1"/>
+    <Button 
+        android:id="@+id/pancard"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="pan Card"
+        android:typeface="monospace"
+        android:layout_marginTop="20dp"
+         android:textColor="#2E4053"
+        android:background="@drawable/shape1"/>
+    <Button 
+        android:id="@+id/Voteridcard"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Voter_id Card"
+        android:typeface="monospace"
+        android:layout_marginTop="20dp"
+         android:textColor="#2E4053"
+        android:background="@drawable/shape1"/>
+     <Button 
+        android:id="@+id/rationcard"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Ration Card"
+        android:typeface="monospace"
+        android:layout_marginTop="20dp"
+         android:textColor="#2E4053"
+        android:background="@drawable/shape1"/>
+    
+    
+</LinearLayout>

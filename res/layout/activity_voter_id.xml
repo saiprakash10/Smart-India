@@ -1,0 +1,112 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backtn"
+    tools:context=".Voter_id" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    android:gravity="center_horizontal"
+    >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VoterId Card"
+        android:typeface="monospace"
+        android:textSize="25dp"
+        android:textColor="#FFFF"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="230dp"
+        android:layout_height="350dp"
+        android:background="@drawable/voterid"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/voteimg"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="73dp" />
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/lite"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/votename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="17dp"
+                android:text=""
+                android:typeface="monospace"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/votefathername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="17dp"
+                android:text=""
+                android:typeface="monospace"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/votergender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:ems="5"
+                android:text=""
+                android:typeface="monospace"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/voteyear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="9dp"
+                android:text=""
+                android:typeface="monospace"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About VoterId Card"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:textColor="#FFFF"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="     The Voter ID is a government issued proof that enables the eligible voters to cast their votes in an electronic slotting machine. Voter ID in India not only serves a tool that will permit you to cast your vote but will also serve a valid identity proof."
+        android:typeface="monospace"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        
+        />
+    
+    
+</LinearLayout>
+</ScrollView>
